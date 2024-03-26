@@ -1,30 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haubner Solution Architects</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Empowering Businesses through NetSuite Optimization.">
+    <meta property="og:title" content="Haubner Solution Architects">
+    <meta property="og:description" content="Empowering Businesses through NetSuite Optimization.">
+    <meta property="og:image" content="HSA Logo w background.png">
+    <meta property="og:url" content="https://haubnersolutionarchitects.com/">
+    <meta property="og:type" content="website">
     <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d7b870bec.js" crossorigin="anonymous"></script>
 </head>
+<body>
+    <!-- Your webpage content here -->
+</body>
+</html>
+
 <body>
     <div class="hero">
         <nav>
             <img src="logo.png" class="logo">
-            <div>
-                <a href="#" class="btn1 anim">Contact Us</a>
-            </div>
         </nav>
         <div class="content">
             <h1 class="anim">Empowering<br>Businesses through<br>NetSuite Optimization.</h1>
             <p class="anim">Secure oversight, transparency, and flexibility for the digital age.</p>
-            <a href="#" class="btn anim">Learn More</a>
-            <img src="erp vector v2.png" class="feature-img anim">
+            <a href="#footer" class="btn anim" id="learnMoreButton">Learn More</a>
+            <img src="shutterstock_2220974329.jpg" class="feature-img anim">
         </div>
-
-
     </div>
 
+    <div id="footer" class="Contact">
+        <h1>Get In Touch</h1>
+        <input type="text" name="first" placeholder="First Name" autcomplete="off" required>
+        <input type="text" name="last" placeholder="Last Name" autcomplete="off" required>
+        <input type="email" name="email" placeholder="Email Address" autcomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter text" autcomplete="off" required></textarea>
+        <button type="submit">Send Message</button>
+    </div>
 
+    <div class="footer">
+            <h1>Haubner Solution Architects <i class="fas fa-copyright"></i> 2024</h1>
+    </div>
 
+    <script>
+        // JavaScript for smooth scrolling
+        document.getElementById('learnMoreButton').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            document.querySelector('#footer').scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the footer
+        });
+    </script>
 </body>
 </html>
