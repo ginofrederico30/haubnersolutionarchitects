@@ -155,29 +155,6 @@ p { margin: 0 0 1.1em; max-width: 60ch; }
 .logo.on-dark { color: var(--white); }
 .logo.on-dark .logo-accent { color: #7C97FF; }
 
-/* -------------------------------- Buttons --------------------------------- */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-head);
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 0.85rem 1.6rem;
-  border-radius: var(--radius-sm);
-  text-decoration: none;
-  border: 1.5px solid transparent;
-  cursor: pointer;
-  transition: background-color 0.15s ease, transform 0.1s ease;
-}
-.btn:active { transform: translateY(1px); }
-.btn-primary {
-  background: var(--blue);
-  color: var(--white);
-}
-.btn-primary:hover { background: #3357d8; }
-.btn-row { margin: 1.75rem 0 1rem; }
-
 /* --------------------------------- Header --------------------------------- */
 .site-header {
   border-bottom: 1px solid var(--border-subtle);
@@ -282,3 +259,14 @@ p { margin: 0 0 1.1em; max-width: 60ch; }
     align-items: center;
   }
 }
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-icon-link {
+  display: inline-flex;
+  color: rgba(255,255,255,0.7);
+  transition: color 0.15s ease;
+}
+.footer-icon-link:hover { color: var(--white); }
