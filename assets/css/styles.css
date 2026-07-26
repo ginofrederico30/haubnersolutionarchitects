@@ -223,6 +223,44 @@ p { margin: 0 0 1.1em; max-width: 60ch; }
 }
 .simple-list li:last-child { border-bottom: none; }
 
+/* ------------------------------- About -------------------------------- */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+@media (min-width: 700px) {
+  .about-grid { grid-template-columns: 140px 1fr; gap: 2rem; }
+}
+.about-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--white);
+}
+.cert-list {
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.92rem;
+  color: var(--ink-70);
+}
+.cert-list li { padding-left: 1.1rem; position: relative; }
+.cert-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
 /* ---------------------------------- Footer -------------------------------------- */
 .site-footer { padding: 2rem 0; }
 .footer-simple {
