@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Haubner Solution Architects icon mark">
-  <rect width="64" height="64" rx="14" fill="#4671F1"/>
-  <text x="32" y="42" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="34" fill="#FFFFFF" text-anchor="middle">H</text>
+  <rect width="64" height="64" rx="14" fill="#291D89"/>
+  <rect x="19.5" y="17.5" width="7" height="29" fill="#F0F4FF"/>
+  <rect x="19.5" y="29.5" width="25" height="5.5" fill="#F0F4FF"/>
+  <rect x="37.5" y="17.5" width="7" height="29" fill="#4671F1"/>
 </svg>
